@@ -167,3 +167,15 @@
     </reporting>
     <url>demopetclinic</url>
 </project>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-41-57.ec2.internal-releases</name>
+        <url>http://34.227.100.154:8081/artifactory/test</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-41-57.ec2.internal-snapshots</name>
+        <url>http://34.227.100.154:8081/artifactory/test</url>
+    </snapshotRepository>
+</distributionManagement>
